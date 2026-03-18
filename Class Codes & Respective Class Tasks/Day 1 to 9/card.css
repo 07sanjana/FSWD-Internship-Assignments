@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Big outer box */
+.wrapper {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 3px solid black;
+  background-color: white;
+
+  display: flex;                 /* Text left, image right */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left content */
+.card {
+  flex: 1;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+/* Right image */
+.image img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+.nav-links {
+    display: center;
+    gap: 20px;
+    list-style: none;
+}
+
+/*HERO SECTION*/
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: lightgrey;
+}
+
+/*cards*/
+.cards {
+    flex: 1;
+    padding: 40px;
+    background: steelblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Responsvive*/
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+}

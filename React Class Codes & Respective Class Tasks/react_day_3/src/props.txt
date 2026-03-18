@@ -1,0 +1,35 @@
+what are props?
+props = properties
+they are used to pass data from parent to child
+props are READ-ONLY
+think props like your function parameters
+
+example:
+Teacher gives instructions to students
+
+Teacher -> Parent component
+Student -> Child component
+instructions -> props (data)
+
+
+Handling user Inputs : Forms
+forms in React use:
+1. value
+2. onchange
+3. useState
+
+Three ways of conditional rendering are:
+1. If else 
+example:
+if (isLoggedIn) {
+    return <h1 Welcome </h1>
+} else {
+    return <h1> Please Log in </h1>
+}
+
+2. Ternary Operator
+{isLoggedIn ? <h1>Welcome</h1> : <h1>Please Login</h1>}
+
+3. Logical And (&&):
+{isLoggedIn && <h1> Welcome </h1>}
+

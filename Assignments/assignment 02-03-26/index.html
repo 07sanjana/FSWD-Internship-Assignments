@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Form</title>
+    <script src="interactive_form.js" defer></script>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .error { color: red; font-weight: bold; }
+        form { max-width: 300px; }
+        input { width: 100%; padding: 8px; margin: 5px 0; }
+        button { padding: 8px 12px; }
+    </style>
+</head>
+<body>
+
+<h2>Interactive Form</h2>
+
+<form id="myForm">
+    <label>Name:</label><br>
+    <input type="text" id="name"><br>
+
+    <label>Email:</label><br>
+    <input type="text" id="email"><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<p id="message"></p>
+
+</body>
+</html>

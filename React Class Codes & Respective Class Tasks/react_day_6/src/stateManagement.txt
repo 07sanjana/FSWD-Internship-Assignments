@@ -1,0 +1,40 @@
+what is state management?
+data that changes over time and affects the UI
+
+ex: cart itwms, logged in user, theme(dark or light), form inputs, API data
+
+types of states:
+
+1. Local state: used inside one component. ex: form input
+2. lifted state: sjared between siblings. ex: model open/close
+3. global state: entire app, ex: auth, theme
+
+Global state: context API
+when is it used: auth, theme, userdata, language
+
+
+what is context:
+context API allows you to share data globally without passing props manually at every level
+It solves: propdrilling
+
+provider: the data source
+provider is a component that wraps your app and supplies global data to all the children
+it acts like a central storage
+
+
+Recommended Professional folder structure:
+component/ - reusable UI
+pages/ - route level components
+services/ - API calls
+context/ - global state
+hooks/ - custom hooks
+utils/ - when you want helper functions
+
+
+example:
+if you are building: E - Commerce, admin dashboard, portfolio, trainer dashboard
+
+you must include:
+separate pages, use context for authentication, use servuces for API, use custom hooks for Reuse.
+
+

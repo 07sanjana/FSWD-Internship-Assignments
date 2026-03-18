@@ -1,0 +1,48 @@
+/*
+selectors:{
+    Property:value;
+}
+*/
+
+/* Element selector tags -> elements */
+h1 {
+    color: brown;
+}
+
+/* Most important selector*/
+/* Class selector -> .classname */
+.highlight {
+    color: rgb(38, 246, 128);
+    background-color: black;
+}
+
+/* Id selector -> #idname */
+#main {
+    color: blueviolet;
+}
+
+/* Grouping selector -> selector1, selector2, selector3 */
+h1, p {
+    color: coral;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+/*colors*/
+.color {
+    color: #0058a0;
+}
+
+/*Fonts*/
+body {
+    font-family: Arial;
+    font-size: 15px;  /*large etc etc*/
+    font-weight: bold;
+}
+
+/*text alignment*/
+h1 {
+    text-align: center;
+}
+
+/* box modelling */

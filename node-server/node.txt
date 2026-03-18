@@ -1,0 +1,16 @@
+frontend - sends request -> backend server processes request -> send response
+
+1. What is node js?
+node js is a javascript runtime environment used to run javascript outside the browser.
+
+why node js is powerful?
+1. Non Blocking architecture
+traditional server : req1 -> finish -> req2 -> finish
+node js : req1, req2, req3 all handled simultaneously (is called as event driven architecture)
+
+what is npm?
+npm - node package manager
+it helps to : install libraries, manage dependencies, resuse open source code
+
+
+

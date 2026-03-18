@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Card sections */
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border-left: 6px solid #6c63ff;
+    text-align: left;
+}
+
+/* Profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #6c63ff;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Links */
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #6c63ff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #6c63ff;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #777;
+}
