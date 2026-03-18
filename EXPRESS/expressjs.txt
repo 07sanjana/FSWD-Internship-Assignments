@@ -1,0 +1,53 @@
+what is express js?
+express is a minimal and flexible node js framework that is used to build web servers, APIs and backend applications
+
+http server - without express 
+http.createServer((req, res) =>{})
+
+with express:
+app.get("/",(req, res) => {})
+
+express is used for:
+Rest APIs
+backend for react/angular 
+micro services
+auth systems
+file uploads
+
+companies:
+netflix, uber, paypal
+
+Routes decides how server responds to client requests.
+/ - homepage
+/about - about page
+/users - user page
+
+
+MIDDLEWARES
+is a function that runs before the request reaches the route.
+example:
+logging, auth, validation, error handling
+
+flow:
+request -> middleware -> route -> response
+
+what is route?
+a route defines how the server responds to specific url request. it connects url path + http methods to a function
+route = url endpoint which handles request
+example: 
+app.get("/", (req, res) => {
+    code
+})
+app.get("/about", (req, res) => {
+    code
+})
+app.get("/home", (req, res) => {
+    code
+})
+
+
+what is router?
+it is a mini express application which is used to organise multiple Routes
+instead of writing all routes in one file, we group related routes using router 
+
+
