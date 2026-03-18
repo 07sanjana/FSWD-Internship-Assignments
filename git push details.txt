@@ -1,0 +1,26 @@
+step 1 : Install latest version of git
+step 2 : create account in github
+step 3 : create a repo in github
+step 4 : open the folder of assignment in vs code -> open the terminal (make sure the root path name is correct)
+         => initialise git:
+         git init 
+         => add files to git
+         git add .
+         => commit files 
+         git commit -m "give any name you want"
+         => connect to github repo 
+         git branch -m main
+
+         => (go to github you will the path of the repo, copy paste and run it looks like this:
+         git remote add origin https://github.com/07sanjana/FSWD-Internship-Assignments.git)
+
+         => push files to github and refresh the repo to see the files that is uploaded 
+         git push -u origin main
+
+         // Updating Assignments - suppose you are adding new files or folders to same directory
+         git add .
+         git commit -m "Updated name"
+         git push
+
+         // refresh the repository to see the updated file
+         
