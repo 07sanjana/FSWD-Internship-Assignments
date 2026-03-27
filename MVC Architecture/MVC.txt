@@ -1,0 +1,95 @@
+if i build a simple student management app API using MVC 
+
+features: 
+get all students
+get students by ID
+add new student
+handle errors properly
+log server actions
+
+what is MVC?
+MVC stands for Model View Controller
+it is a way to organise the code so that project is clean, scalable, easy to debug, easy to maintain
+
+why MVC needed?
+to avoid bad code structure we need MVC 
+
+MVC Components:
+
+1. Model - handles data
+example:
+* fetching students 
+* storing students details
+* updating database
+
+it works with:
+database, arrays, files, external APIs
+
+Model = data layer
+==========================================
+2. View - handles what users see 
+
+in frontend apps:
+* html pages
+* EJS templates
+* React UI 
+
+in api projects:
+* JSON response can be considered output View
+
+view = presentation layer
+==============================================
+3. Controller - acts as middle person between model and view 
+
+it:
+* recieves request
+* calls model 
+* process logic 
+* sends response 
+
+controller = brain / request handler 
+==================================================
+
+MVC flow:
+
+suppose user hits: GET/students
+
+1. request comes to route
+2. route calls controller 
+3. controller ask model for data
+4. model returns data 
+5. comtroller sends response as JSON/view 
+
+==================================================
+Error handling:
+what is error handling?
+when something goes wrong, the app should not crash badly.
+
+example:
+students not found, missing data, invalid input, server issue.
+
+without error handling:
+server may stop, confusing messages may come, and debugging becomes hard.
+
+types of errors in Node/Express:
+1. syntax error - mistakes in code writing
+2. runtime error - error while app is running 
+3. logical error - app runs but gives wrong output 
+4. custom application error - "student not found"
+
+=========================================================
+
+what is logging?
+logging means recording important application events
+example: server started, request recieved, error occured, user logged in, API called
+
+why logging is important?
+because it helps us with:
+debug issues, track requests, monitor app behaviour, understand the failures
+
+types of logsz;
+1. info log -> normal activity
+2. warning logs -> unusual but manageable activity
+3. error logs -> something has failed 
+
+

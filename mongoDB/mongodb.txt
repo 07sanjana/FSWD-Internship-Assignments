@@ -1,0 +1,30 @@
+what is database?
+database is a system to store, manage, retrive data efficiently.
+
+types of databases:
+1. SQL (relational database) 
+* data is stored in table
+* structured format (rows and columns)
+
+2. NoSQL (non-relational database)
+* flexible structure
+* stores data as: JSON, key-value, documents 
+
+example: {
+    "name":"zeha".
+    "age":20,
+    "skills":["React", "MongoDB"]
+}
+
+SQL vs NoSQL 
+structure: fixed scheme | flexible scheme 
+data type: tables | JSON docs 
+scaling: vertical | horizontal
+example: MySQL, PostgreSQL | MongoDB 
+use case: Banking, ERP | social media, Realtime 
+
+Terminologies:
+1. Database - container of collections
+2. Collection - group of documents
+3. Documents - JSON onject (record)
+
