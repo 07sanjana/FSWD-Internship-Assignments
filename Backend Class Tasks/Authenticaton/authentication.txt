@@ -1,0 +1,30 @@
+Authentication = who are you?
+authorization = what can you access?
+
+email : zeha@example.com
+password : "12345" = is a wrong way
+
+solution: hashing (using bcrypt)
+
+commands:
+npm init -y 
+npm install express mongoose bcrypt jsonwebtoken dotenv
+
+JWT?
+token = identity card
+problem without jwt:
+user logs -> server stores session -> every request checks session
+* server must store session data (memory problem)
+* not scalable for large apps
+* hard to manage in distributed systems
+
+JWT = JSON WEB TOKEN 
+instead of storing session on server we store identity in token (client side)
+
+why JWT is important?
+1. stateless authentication - server dont user sessions (scalable and faster)
+2. Secure communication - token is digitally signed - cannot be tampered
+3. used everywhere
+4. works perfectly with frontend 
+
+
